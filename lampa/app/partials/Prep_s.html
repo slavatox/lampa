@@ -11,11 +11,11 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width">
     </head>
     <body>
-        <div>
-           <table class="table">
-  Алооирм<br />
-  Прпллдд
-           </table>
-        </div>
+        <div><ul>
+    <li ng-repeat="phone in phones">
+      {{phone.name}}
+      <p>{{phone.family}}</p>
+    </li>
+  </ul></div>
     </body>
 </html>
