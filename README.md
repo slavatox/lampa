@@ -1,0 +1,3 @@
+lampa
+=====
+poluchaetsya, ne?
