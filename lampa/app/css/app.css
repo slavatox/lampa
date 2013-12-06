@@ -48,66 +48,10 @@ ul.nice-menu {
   }
 }
 
-@-moz-keyframes expand-bounce {
-  0% {
-    width: 5px;
-    padding-left: 0px;
-  }
-  
-  50% {
-    width: 200px;
-  }
-  
-  70% {
-    width: 170px;
-  }
-  
-  80% {
-    width: 200px;
-  }
-  
-  90% {
-    width: 190px;
-  }
-  
-  100% {
-    width: 200px;
-    padding-left: 20px;
-  }
-}
-
 @-webkit-keyframes expand {  
   0% {
     width: 5px;
     padding-left: 0px;
-  }
-  
-  100% {
-    width: 200px;
-    padding-left: 20px;
-  }
-}
-
-@-webkit-keyframes expand-bounce {  
-  0% {
-    width: 5px;
-    padding-left: 0px;
-  }
-  
-  50% {
-    width: 200px;
-  }
-  
-  70% {
-    width: 170px;
-  }
-  
-  80% {
-    width: 200px;
-  }
-  
-  90% {
-    width: 190px;
   }
   
   100% {
@@ -129,34 +73,6 @@ ul.nice-menu {
   }
 }
 
-@-moz-keyframes shrink-bounce {
-  
-  0% {
-    width: 200px;
-    padding-left: 20px;
-  }
-  
-  50% {
-    width: 5px;
-  }
-  
-  70% {
-    width: 35px;
-  }
-  
-  80% {
-    width: 5px;
-  }
-  
-  90% {
-    width: 15px;
-  }
-  
-  100% {
-    width: 5px;
-    padding-left: 0px;
-  }
-}
 
 @-webkit-keyframes shrink {
   
@@ -171,34 +87,6 @@ ul.nice-menu {
   }
 }
 
-@-webkit-keyframes shrink-bounce {
-  
-  0% {
-    width: 200px;
-    padding-left: 20px;
-  }
-  
-  50% {
-    width: 5px;
-  }
-  
-  70% {
-    width: 35px;
-  }
-  
-  80% {
-    width: 5px;
-  }
-  
-  90% {
-    width: 15px;
-  }
-  
-  100% {
-    width: 5px;
-    padding-left: 0px;
-  }
-}
 
 ul.nice-menu li {
   width: 5px;
@@ -223,14 +111,6 @@ ul.nice-menu li {
   -webkit-animation-timing-function: ease-in-out;
 }
 
-ul.nice-menu.bounce li {
-  -moz-animation-name: shrink-bounce;
-  -moz-animation-duration: 0.5s;
-  -moz-animation-timing-function: ease-in-out;
-  -webkit-animation-name: shrink-bounce;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-timing-function: ease-in-out;
-}
 
 ul.nice-menu li:hover {
   width: 200px;
@@ -243,14 +123,6 @@ ul.nice-menu li:hover {
   -webkit-animation-timing-function: ease-in-out;
 }
 
-ul.nice-menu.bounce li:hover {
-  -moz-animation-name: expand-bounce;
-  -moz-animation-duration: 0.5s;
-  -moz-animation-timing-function: ease-in-out;
-  -webkit-animation-name: expand-bounce;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-timing-function: ease-in-out;
-}
 
 ul.nice-menu a {
   width: 200px;
