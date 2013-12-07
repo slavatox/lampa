@@ -20,5 +20,7 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/Расписание', {templateUrl: 'partials/Raspis_al.html', controller: 'MyCtrl8'});
   $routeProvider.when('/Домой', {templateUrl: 'partials/Novos.html', controller: 'MyCtrl9'});
   $routeProvider.when('/Документы', {templateUrl: 'partials/Dock.html', controller: 'MyCtrl10'});
+  $routeProvider.when('/Направления и специальности', {templateUrl: 'partials/Spec.html', controller: 'MyCtrl11'});
+  $routeProvider.when('/Лаборатории', {templateUrl: 'partials/Novos.html', controller: 'MyCtrl12'});
   $routeProvider.otherwise({redirectTo: '/view1'});
 }]);

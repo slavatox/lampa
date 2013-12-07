@@ -136,10 +136,10 @@ ul.nice-menu a {
   padding-left: 20px;
 }
 
-ul.nice-menu li.green {
-  background: rgb(107,186,112);
-}
 
+ul.nice-menu li.mediumslateblue {
+  background: rgb(249,56,93);
+}
 ul.nice-menu li.blue {
   background: rgb(78,92,127);
 }
