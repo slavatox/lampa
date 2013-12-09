@@ -1,16 +1,85 @@
-<!DOCTYPE html>
+
+
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
-</html>
+<div id="carousel-example-generic" class="carousel slide">
+
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="3" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="img/1.jpg"  alt="">
+      <div class="carousel-caption">
+        slide 1
+      </div>
+    </div>
+<div class="item">
+      <img src="img/2.jpg" alt="">
+      <div class="carousel-caption">
+        slide 2
+      </div>
+    </div>
+<div class="item">
+      <img src="img/3.jpg" alt="">
+      <div class="carousel-caption">
+        slide 3
+      </div>
+    </div>
+  </div>
+
+
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="icon-prev"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="icon-next"></span>
+  </a>
+</div>
+
+                   -->
+                   
+<article itemscope itemtype="http://schema.org/Article">
+<section id="carousel">
+<div itemprop="articleBody" class="page-header">
+<h1 itemprop="name">Carousel <small>bootstrap-carousel.js</small></h1>
+</div>
+<h2>Пример карусельки</h2>
+<p itemprop="description">Карусель это простой плагин для создания слайдшоу. Смотрите пример ниже.</p>
+<div class="bs-docs-example">
+<div id="myCarousel" class="carousel slide">
+<div class="carousel-inner">
+<div class="item active">
+<img src="img/1.jpg" alt="">
+<div class="carousel-caption">
+<h4>Заголовок</h4>
+<p>Текст или описание слайда</p>
+</div>
+</div>
+<div class="item">
+<img src="img/2.jpg" alt="">
+<div class="carousel-caption">
+<h4>Заголовок 2</h4>
+<p>Текст или описание слайда 2</p>
+</div>
+</div>
+<div class="item">
+<img src="img/3.jpg" alt="">
+<div class="carousel-caption">
+<h4>Заголовок 3</h4>
+<p>Текст или описание слайда 3</p>
+</div>
+</div>
+</div>
+<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+<a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+</div>
+<script type="text/javascript" >
+            $(document).ready(function() {        
+        $('.carousel').carousel();
+            });
+</script>  
