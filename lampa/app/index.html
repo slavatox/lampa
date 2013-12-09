@@ -5,6 +5,7 @@
   <title>Кафедра Информатики</title>
   <link rel="stylesheet" href="css/app.css"/>
   <link rel="stylesheet" href="css/bootstrap.css"/>
+  <script src="js/bootstrap.min.js"></script>
       <style type="text/css">
       body {
         padding-top: 60px;
@@ -65,7 +66,7 @@
            <li class = "cyan"><a href = "#/Контакты">Контакты</a></li>
          </ul>
        </div>-->
-<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="navbar  navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container-fluid">
           <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -76,13 +77,14 @@
           <a class="brand" href="#">Кафедра информатики</a>
           <div class="nav-collapse collapse">
             <p class="navbar-text pull-right">
-              Logged in as <a href="#" class="navbar-link">Username</a>
-            </p>
+           <!--   Logged in as <a href="#" class="navbar-link">Username</a>
+            </p>-->
             <ul class="nav">
-              <li class="active"><a href="#Ab_al">Главная</a></li>
+              <li><a href="#/Главная">Главная</a></li>
               <li><a href="#Raspis_al">Расписание</a></li>
               <li><a href="#Dock">Документы</a></li>
                 <li><a href="#/Преподаватели">Преподаватели</a></li>
+                  <li><a href="#/Фотогалерея">Фотогалерея</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -94,7 +96,7 @@
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
              
-              <li class = "mediumslateblue"><a href = "#/Домой">Главная</a></li>
+              <li class = "mediumslateblue"><a href = "#/Новости">Новости</a></li>
               <li class = "sky blue"><a href = "#/О кафедре">История</a></li>
               <li class = "blue"><a href = "#/Направления и специальности">Направления и специальности</a></li>
               <li  class = "purple"><a href = "#/Научная работа">Направления научной работы</a></li>
@@ -114,6 +116,8 @@
   <!-- In production use:
   <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
   -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+      
   <script src="lib/angular/angular.js"></script>
   <script src="lib/angular/angular-route.js"></script>
   <script src="js/app.js"></script>
@@ -121,6 +125,7 @@
   <script src="js/controllers.js"></script>
   <script src="js/filters.js"></script>
   <script src="js/directives.js"></script>
+    
  
 </body>
 </html>
