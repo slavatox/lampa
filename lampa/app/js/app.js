@@ -21,6 +21,8 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/Домой', {templateUrl: 'partials/Novos.html', controller: 'MyCtrl9'});
   $routeProvider.when('/Документы', {templateUrl: 'partials/Dock.html', controller: 'MyCtrl10'});
   $routeProvider.when('/Направления и специальности', {templateUrl: 'partials/Spec.html', controller: 'MyCtrl11'});
+  
   $routeProvider.when('/Лаборатории', {templateUrl: 'partials/Lab.html', controller: 'MyCtrl12'});
+  $routeProvider.when('/Главная', {templateUrl: 'partials/Glavnaya.html', controller: 'MyCtrl13'});
   $routeProvider.otherwise({redirectTo: '/view1'});
 }]);
