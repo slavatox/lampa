@@ -25,7 +25,7 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/Лаборатории', {templateUrl: 'partials/Lab.html', controller: 'MyCtrl1'});
   $routeProvider.when('/Главная', {templateUrl: 'partials/Glavnaya.html', controller: 'MyCtrl1'});
     $routeProvider.when('/Фотогалерея', {templateUrl: 'partials/Foto.html', controller: 'MyCtrl1'});
-  $routeProvider.otherwise({redirectTo: '/view1'});
+  $routeProvider.otherwise({redirectTo: '/Главная'});
 }]);
 
 $(function(){
