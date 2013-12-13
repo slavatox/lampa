@@ -29,134 +29,31 @@
   padding: 0;
 }
 
+/*нопки вверх и вниз*/
 
-ul.nice-menu {
-  list-style: none;
-  margin-top: 30px;
-  width: 300px;
+.go-up, .go-down {
+ display: none;
+ position: fixed; /*позиционирование*/
+ z-index: 9999; /*поверх все элементов на странице*/
+ left: 1%; /*положение на странице, если слева - left*/
+ background: #4F4F4F;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ cursor: pointer;
+ color: #fff;
+ text-align: center;
+ font: normal normal 42px/42px sans-serif;
+ text-shadow: 0 1px 2px #000;
+ opacity: .5;
+ padding: 3px;
+ margin-bottom: 5px;
+ width: 42px;
+ height: 42px;
 }
-
-@-moz-keyframes expand {  
-  0% {
-    width: 5px;
-    padding-left: 0px;
-  }
-  
-  100% {
-    width: 200px;
-    padding-left: 20px;
-  }
+.go-up { bottom: 60px; }
+.go-down { bottom: 10px; }
+.go-down:hover,
+.go-up:hover {
+ opacity: 1;
+ box-shadow: 0 5px 0.5em -1px #666;
 }
-
-@-webkit-keyframes expand {  
-  0% {
-    width: 5px;
-    padding-left: 0px;
-  }
-  
-  100% {
-    width: 200px;
-    padding-left: 20px;
-  }
-}
-
-@-moz-keyframes shrink {
-  
-  0% {
-    width: 200px;
-    padding-left: 20px;
-  }
-  
-  100% {
-    width: 5px;
-    padding-left: 0px;
-  }
-}
-
-
-@-webkit-keyframes shrink {
-  
-  0% {
-    width: 200px;
-    padding-left: 20px;
-  }
-  
-  100% {
-    width: 5px;
-    padding-left: 0px;
-  }
-}
-
-
-ul.nice-menu li {
-  width: 5px;
-  height: 30px;
-  line-height: 20px;
-  padding: 0px 0px 0px 0px;
-  margin-top: 3px;
-  background: transparent;
-  width: 5px;
-}
-
-ul.nice-menu.tight li {
-  margin-top: 0 !important;
-}
-
-ul.nice-menu li {
-  -moz-animation-name: shrink;
-  -moz-animation-duration: 0.5s;
-  -moz-animation-timing-function: ease-in-out;
-  -webkit-animation-name: shrink;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-timing-function: ease-in-out;
-}
-
-
-ul.nice-menu li:hover {
-  width: 200px;
-  padding-left: 20px;
-  -moz-animation-name: expand;
-  -moz-animation-duration: 0.5s;
-  -moz-animation-timing-function: ease-in-out;
-  -webkit-animation-name: expand;
-  -webkit-animation-duration: 0.5s;
-  -webkit-animation-timing-function: ease-in-out;
-}
-
-
-ul.nice-menu a {
-  width: 200px;
-  text-decoration: none;
-  font-size: 14px;
-  color: #FFF;
-  text-shadow: 0px 0px 3px #333;
-  font-weight: bold;
-  position: absolute;
-  padding: 5px 0px;
-  padding-left: 20px;
-}
-
-
-ul.nice-menu li.mediumslateblue {
-  background: rgb(249,56,93);
-}
-ul.nice-menu li.blue {
-  background: rgb(78,92,127);
-}
-
-ul.nice-menu li.orange {
-  background: rgb(216,121,40);
-}
-
-ul.nice-menu li.dark {
-  background: rgb(42,32,30);
-} 
-
-ul.nice-menu li.red {
-  background: rgb(178,59,30);
-}
-
-
-ul.nice-menu li.bright {
-  background: rgb(158,249,158);
-}	
