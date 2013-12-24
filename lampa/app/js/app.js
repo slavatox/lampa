@@ -17,7 +17,7 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/Научная работа', {templateUrl: 'partials/Nayc_k.html', controller: 'MyCtrl1'});
   $routeProvider.when('/Специалитет', {templateUrl: 'partials/Spec_s.html', controller: 'MyCtrl1'});
   $routeProvider.when('/Преподаватели', {templateUrl: 'partials/Prep_s.html', controller: 'MyCtrl1'});
-  $routeProvider.when('/Расписание', {templateUrl: 'partials/Raspis_al.html', controller: 'MyCtrl1'});
+  $routeProvider.when('/Расписание', {templateUrl: 'partials/Raspis.html', controller: 'MyCtrl1'});
   $routeProvider.when('/Новости', {templateUrl: 'partials/Novos.html', controller: 'MyCtrl1'});
   $routeProvider.when('/Документы', {templateUrl: 'partials/Dock.html', controller: 'MyCtrl1'});
   $routeProvider.when('/Направления и специальности', {templateUrl: 'partials/Spec.html', controller: 'MyCtrl1'});
