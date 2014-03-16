@@ -23,6 +23,7 @@ config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/Направления и специальности', {templateUrl: 'partials/Spec.html', controller: 'MyCtrl1'});
   
   $routeProvider.when('/Лаборатории', {templateUrl: 'partials/Lab.html', controller: 'MyCtrl1'});
+  $routeProvider.when('/О проекте', {templateUrl: 'partials/Razrab.html', controller: 'MyCtrl1'});
   $routeProvider.when('/Главная', {templateUrl: 'partials/Glavnaya.html', controller: 'MyCtrl1'});
     $routeProvider.when('/Фотогалерея', {templateUrl: 'partials/Foto.html', controller: 'MyCtrl1'});
   $routeProvider.otherwise({redirectTo: '/Главная'});
